@@ -4,3 +4,7 @@ resource  ->  资源
 example   ->  例子
 idea      ->  想法
 demo      ->  demo
+
+### 新增分支
+主分支main
+个人分支lzy
