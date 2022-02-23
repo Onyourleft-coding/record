@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": 123456,
+      "token": "admin123456",
+      "roleId": 1,
+      "roleType": 1
+    },
+    {
+      "id": 2,
+      "username": "赵晓纯",
+      "password": 123456,
+      "token": "zxczxc123456",
+      "roleId": 2,
+      "roleType": 2
+    },
+    {
+      "id": 3,
+      "username": "林钟炎",
+      "password": 123456,
+      "token": "lzylzy123456",
+      "roleId": 3,
+      "roleType": 3
+    }
+  ]
+}
