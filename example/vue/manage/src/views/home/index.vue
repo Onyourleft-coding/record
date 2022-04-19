@@ -1,5 +1,5 @@
 <template>
-  <div class="container">登陆</div>
+  <div>首页</div>
 </template>
 
 <script setup lang="ts"></script>

@@ -23,7 +23,6 @@ export default ({ command }: ConfigEnv): UserConfigExport => {
       },
     },
     server: {
-      port: 3005,
       open: true,
       proxy: {
         // 代理配置

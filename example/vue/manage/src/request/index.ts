@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { manageLogin } from '@/api/login';
-const baseURL = '/api';
+
+const baseURL = 'http://localhost:1105';
 
 axios.defaults.withCredentials = true;
 
@@ -31,6 +32,8 @@ service.interceptors.response.use(
   async (response) => {
     const url = response.config.url;
     const res = response.data;
+    console.log('res', res);
+
     if (response.status !== 200) {
       console.log('服务器异常，请稍后再试');
       return;

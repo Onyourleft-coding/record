@@ -4,7 +4,9 @@
 </script>
 
 <template>
-  <div>123</div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <style></style>
